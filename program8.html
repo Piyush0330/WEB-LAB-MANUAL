@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Different CSS Selectors</title>
+        <style>
+            *{ font-family:Arial;}
+            .highlight{background-color: lightcyan;}
+            #main-title{color:darkblue;}
+            h2,p{color:darkgoldenrod;}
+            div p{color:orange;}
+        </style>
+    </head>
+    <body>
+        <h1 id="main-title">CSS Selectors Example</h1>
+        <p class="highlight">This paragraph uses a class teacher selector (highlight).</p>
+        <h2>Grouped Heading</h2>
+        <p>This paragraph shares styles with h2 using a group selector</p>
+        <div>
+            <h3>Inside a div</h3>
+            <p> This paragraph is inside a div, styled using a descendant selector (div p)</p>
+        </div>
+    </body>
+</html>
